@@ -6,6 +6,8 @@ int main()
     int number1 = 20;
     int number2 = 5;
 
+    cout << "Simple Calculator" << endl;
+
     cout << "Sum: "
          << number1 + number2 << endl;
 
