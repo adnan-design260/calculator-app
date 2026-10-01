@@ -16,6 +16,12 @@ int main()
 
      cout << "Division: "
      << number1 / number2 << endl;
+     
 
     return 0;
+}
+
+int Add(int number1, int number2)
+{
+    return number1 + number2;
 }
