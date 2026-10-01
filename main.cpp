@@ -13,8 +13,8 @@ int main()
 
     cout << "Difference: "
      << number1 - number2 << endl;
-     
-cout << "Division: "
+
+     cout << "Division: "
      << number1 / number2 << endl;
 
     return 0;
