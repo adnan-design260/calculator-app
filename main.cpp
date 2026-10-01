@@ -1,20 +1,13 @@
 #include <iostream>
-
-int add(int a, int b)
-{
-    return a + b;
-}
-
-int subtract(int a, int b)
-{
-    return a - b;
-}
+using namespace std;
 
 int main()
 {
-    std::cout << "Calculator App" << std::endl;
-    std::cout << "2 + 3 = " << add(2, 3) << std::endl;
-    std::cout << "5 - 2 = " << subtract(5, 2) << std::endl;
+    int number1 = 20;
+    int number2 = 5;
+
+    cout << "Sum: "
+         << number1 + number2 << endl;
 
     return 0;
-} 
+}
